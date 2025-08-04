@@ -1,0 +1,8 @@
+🔧 Additional System Tools Required
+These tools must be installed and accessible in your system $PATH (not via pip):
+
+| Tool        | Use                                | Install via                                                             |
+| ----------- | ---------------------------------- | ----------------------------------------------------------------------- |
+| `apktool`   | Decompile / rebuild APKs           | `apt`, `brew`, or [apktool.org](https://ibotpeaches.github.io/Apktool/) |
+| `jarsigner` | Sign APK with keystore             | Part of Java JDK                                                        |
+| `zipalign`  | Align APK for Android optimization | Part of Android SDK build-tools                                         |

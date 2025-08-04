@@ -1,0 +1,23 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Build output
+build/
+workspace/
+dist/
+
+# Keystore and secrets
+keys/
+*.keystore
+
+# Editor/OS files
+.DS_Store
+*.swp
+*.swo
+*.log
+
+# Virtualenvs
+venv/
+.venv/
+env/
